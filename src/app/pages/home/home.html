@@ -1,0 +1,306 @@
+ <div class="work-page">
+ <section id="hero" class="hero-section light-section">
+      <div class="container hero-container">
+        <div class="hero-text">
+          <p class="hero-intro">
+            Hi, I’m Upamanyu Naskar,<br />
+            <strong>Sr. Product Designer</strong>
+          </p>
+          <h1 class="hero-headline">
+            I craft products where innovation meets elegance
+          </h1>
+          <p class="hero-description">
+            Designing and launching high-impact products across web, mobile,
+            and<br />
+            enterprise systems. Previously, led product experiences for<br />
+            <strong>12 ERPs, 18 apps, and 100+ websites</strong>
+            <br /><br />
+            At Endeavor; built ecosystem-first systems<br />
+            Academic consulting at WePegasus;<br />
+            and directed brand and UX transformations for global clients.
+          </p>
+        </div>
+        <!-- <div class="hover-wrapper" >
+        <div class="hero-hover-button" >
+          <div class="hover-circle" (mouseover)="showCard()"
+     (mouseleave)="hideCard()">
+            <img src="/assets/images/Ellipse 6.png">
+            <span class="hovercontentmain">
+            <span class="content-hover">HOVER</span>
+            <span class="arrow-hover">&gt;</span>
+           </span>
+          </div>
+        </div>
+        <div class="card-container" [class.show]="isCardVisible">
+          <section class="projects-section">
+            <h2><span class="hash-color">#</span> Projects</h2>
+            <p>Explore the Mockup.<br />Discover the Insight.</p>
+            <span class="arrow">▶</span>
+          </section>
+
+          <section class="about-section">
+            <h2><span class="hash-color">#</span><a routerLink="/about" >About me</a></h2>
+            <p>Where I come from.<br />Where I wish to go.</p>
+            <span class="arrow">▶</span>
+          </section>
+        </div>
+        </div> -->
+        <div class="hover-wrapper"
+     (mouseenter)="showCard()"
+     (mouseleave)="hideCard()">
+
+  <div class="hero-hover-button">
+    <div class="hover-circle">
+      <img src="/assets/images/Ellipse 6.png" />
+      <span class="hovercontentmain">
+        <span class="content-hover">HOVER</span>
+        <span class="arrow-hover">&gt;</span>
+      </span>
+    </div>
+  </div>
+
+  <div class="card-container" [class.show]="isCardVisible">
+    <section class="projects-section">
+      <h2><span class="hash-color">#</span><a routerLink="/work">Projects</a></h2>
+      <p>Explore the Mockup.<br />Discover the Insight.</p>
+      <span class="arrow">▶</span>
+    </section>
+
+    <section class="about-section">
+      <h2><span class="hash-color">#</span>
+        <a routerLink="/about">About me</a>
+      </h2>
+      <p>Where I come from.<br />Where I wish to go.</p>
+      <span class="arrow">▶</span>
+    </section>
+  </div>
+
+</div>
+
+      </div>
+    </section>
+    <section id="experience" class="experience-section dark-section">
+        <div class="container">
+            <div class="experience-content-wrapper">
+                <div class="experience-text-content">
+                    <img src="/assets/images/78_120.svg" alt="Endeavor Group Logo" class="endeavor-logo">
+                    <h2 class="experience-title">Previously worked at <strong>Endeavor</strong></h2>
+                    <hr class="divider">
+                    <h3 class="experience-subtitle">End-to-End Product Execution:</h3>
+                    <p class="experience-description">At Endeavor, I led the full product lifecycle — from idea to
+                        launch — across 3 custom ERPs, 2 mobile apps, and 3 websites. I owned the process from
+                        wireframes to workflows, aligning business goals with intuitive design, scalable architecture,
+                        and seamless developer handoffs. Every product shipped was built for performance, usability, and
+                        growth.</p>
+                </div>
+                <a routerLink="/case-study" class="explore-button">Explore &gt;</a>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="project-section dark-section">
+        <div class="container">
+            <!-- NOCTIS Project -->
+            <div class="project-showcase noctis-project">
+                <div class="project-info">
+                    <h2 class="project-title"><strong>NOCTIS:</strong><br>A Unified Command <br>Console for
+                        Enterprise<br>
+                        Networks</h2>
+                    <h3 class="project-subtitle">Network Operations Command, <br>Threat Intelligence & Security</h3>
+                    <p class="project-description">Powered by Cisco modules, NOCTIS unifies monitoring, access control,
+                        and threat response into one console. Built with cross-functional precision, it delivers
+                        real-time packet tracing, AI-driven security, and seamless scalability for enterprise networks.
+                    </p>
+                    <a routerLink="/case-study-parent1" class="explore-button">Explore &gt;</a>
+                </div>
+                <div class="project-visuals">
+                    <img src="/assets/images/db0356bfc73695bc4e7a6a8d4f4f86350c021821.png" alt="NOCTIS dashboard"
+                        class="main-project-image1">
+                    <div class="project-card">
+                        <h4 class="project-card-title">NOCTIS</h4>
+                        <p class="project-card-text">
+                            <strong>Production time:</strong><br>~55,250 hours over 25 months.<br>
+                            <strong>Team:</strong><br>13 cross-functional resources<br>
+                            <em>(frontend, backend, network engineering, product management, and UX research)</em>
+                        </p>
+                    </div>
+                       </div>
+                    <div class="project-highlights">
+                        <h4>Highlights</h4>
+                        <div class="highlight-item">
+                            <h5>Network Operations</h5>
+                            <p>Monitoring, Load Balancing, Traffic Optimisation</p>
+                            <a routerLink="/case-study-parent1"class="explore-link">Explore</a>
+                        </div>
+                        <div class="highlight-item">
+                            <h5>Threat Intelligence</h5>
+                            <p>AI-driven anomaly detection, predictive alerts</p>
+                            <a routerLink="/case-study-parent1" class="explore-link">Explore</a>
+                        </div>
+                    </div>
+             
+            </div>
+        </div>
+        <div class="container">
+            <div class="project-details-grid">
+                <div class="detail-item">
+                    <div class="detail-image-placeholder">
+                        <a routerLink="/case-study-parent1">
+                            <img src="/assets/images/Rectangle.png">
+                        </a>
+                    </div>
+                    <div class="detail-itemcontent">
+                        <h5>THE IDEATION</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-image-placeholder">
+                        <a routerLink="/case-study-parent1">
+                            <img src="/assets/images/Rectangle.png">
+                        </a>
+                    </div>
+                    <div class="detail-itemcontent">
+                        <h5>THE PROCESS</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-image-placeholder">
+                        <a routerLink="/case-study-parent1">
+                            <img src="/assets/images/Rectangle.png">
+                        </a>
+                    </div>
+                    <div class="detail-itemcontent">
+                        <h5>THE COLLABS</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-image-placeholder">
+                        <a routerLink="/case-study-parent1">
+                            <img src="/assets/images/Rectangle.png">
+                        </a>
+                    </div>
+                    <div class="detail-itemcontent">
+                        <h5>THE PHASES</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CISCO Project -->
+        <div class="section-divider">
+            <hr class="divider-1">
+        </div>
+        <div class="container">
+            <div class="project-showcase cisco-project">
+                <div class="project-info">
+                    <p class="construction-tag">CUSTOM CONSTRUCTION</p>
+                    <h2 class="project-title"><strong>CISCO</strong> Network <br>Security Systems</h2>
+                    <p class="project-description">JASK automates the majority of a security analyst's initial
+                        investigations and provides a visual timeline of events as the events occurred. This allows for
+                        much more efficient understanding of an 'attack story' which leads to quick resolutions to cyber
+                        threats.</p>
+                    <a href="#" class="explore-button">Explore &gt;</a>
+                </div>
+                <div class="project-visuals">
+                    <img src="/assets/images/57f8a2c17c46b5d9d8d1eca04dd05375e0bbccba.png"
+                        alt="CISCO Security Systems dashboard" class="main-project-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="capabilities" class="capabilities-section dark-section">
+        <div class="container">
+            <div class="capabilities-header">
+                <h2 class="capabilities-title">Multiple Nodes and Modules<br>brought to a <strong>SIMPLIFIED
+                        VERSION</strong></h2>
+                <p class="capabilities-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at
+                    velit id orci laoreet ornare. Cras eros odio, cursus a consectetur id.</p>
+            </div>
+            <div class="capabilities-grid">
+                <div class="capability-card">
+                    <div class="card-image-placeholder"></div>
+                    <div class="card-content">
+                        <h4>CUSTOM WEBSITES</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at velit id orci laoreet ornare.
+                        </p>
+                        <a href="#" class="explore-link">Explore</a>
+                    </div>
+                </div>
+                <div class="capability-card"  >
+                    <div class="card-image-placeholder"></div>
+                    <div class="card-content">
+                        <h4>AI-DB ENGINES</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at velit id orci laoreet ornare.
+                        </p>
+                        <a href="#" class="explore-link">Explore</a>
+                    </div>
+                </div>
+                <div class="capability-card">
+                    <div class="card-image-placeholder"></div>
+                    <div class="card-content">
+                        <h4>PRODUCT IDENTITY</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at velit id orci laoreet ornare.
+                        </p>
+                        <a href="#" class="explore-link">Explore</a>
+                    </div>
+                </div>
+                <div class="capability-card">
+                    <div class="card-image-placeholder"></div>
+                    <div class="card-content">
+                        <h4>PRODUCT MARKETING</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at velit id orci laoreet ornare.
+                        </p>
+                        <a href="#" class="explore-link">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery-section darker-section">
+        <div class="container">
+            <div class="gallery-header">
+                <h2 class="gallery-title">Multiple Nodes and Modules<br>brought to a <strong>SIMPLIFIED VERSION</strong>
+                </h2>
+                <h3 class="gallery-subtitle">Few of <em>THE DELIVERIES</em></h3>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item item-1"><img src="/assets/images/e2e910ebca9774aabb720b59f73969b77dcf6bea.png"
+                        alt="Gallery image 1"></div>
+                <div class="gallery-item item-2"><img src="/assets/images/14252f2e8f4096ea4ad572d55ff976e78d181bf3.png"
+                        alt="Gallery image 2"></div>
+                <div class="gallery-item item-3"><img src="/assets/images/4f26e8ce4225c4359f52ee007345a8546d33fbc2.png"
+                        alt="Gallery image 3"></div>
+                <div class="gallery-item item-4"><img src="/assets/images/0fde9d83704e69889cac67791964305fe05bbf46.png"
+                        alt="Gallery image 4"></div>
+                <div class="gallery-item item-5"><img src="/assets/images/b21173aeb5844d53d4e91c4f196f78d8b4d11b5c.png"
+                        alt="Gallery image 5"></div>
+                <div class="gallery-item item-6"><img src="assets/images/47fb75c3e007071f237bf928f4cdff8614f12983.png"
+                        alt="Gallery image 6"></div>
+                <div class="gallery-item item-7"><img src="/assets/images/b3d40792fc20398f46412339b554a5a3ef8b6c26.png"
+                        alt="Gallery image 7"></div>
+                <div class="gallery-item item-8"><img src="/assets/images/d9524ed5e7d450ebfff951357a6967b4bfa40485.png"
+                        alt="Gallery image 8"></div>
+                <div class="gallery-item item-9"><img src="/assets/images/49e2dc4a0867d782e73d90ea17772294d3333b26.png"
+                        alt="Gallery image 9"></div>
+                <div class="gallery-item item-10"><img src="/assets/images/183a784032d086184d1ef6a4b40651c84f24cf8d.png"
+                        alt="Gallery image 10"></div>
+                <div class="gallery-item item-11"><img src="/assets/images/b365512563626379ae6ff4832fc4c869e412f3d9.png"
+                        alt="Gallery image 11"></div>
+                <div class="gallery-item item-12"><img src="/assets/images/143466308ff4412c6ef28cb62be3152436415cbc.png"
+                        alt="Gallery image 12"></div>
+            </div>
+        </div>
+    </section>
+    <section id="covered" class="covered-section darker-section">
+        <div class="container">
+            <h2 class="covered-title">Got you<br><strong>Covered</strong></h2>
+            <div class="phone-mockup">
+                <div class="phone-bg"></div>
+                <img src="/assets/images/cc5273b8a26378df611ed71adf03bf5d9994aa84.png" alt="Phone mockup" class="phone-screen">
+            </div>
+        </div>
+    </section>
+
+    </div>

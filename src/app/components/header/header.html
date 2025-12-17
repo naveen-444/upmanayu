@@ -1,0 +1,31 @@
+
+
+<section class="nav" [class.light-section]="isHomePage">
+
+
+  <div class="menu container">
+    <nav class="navbar navbar-expand-lg navbar-custom p-4">
+
+      <a class="navbar-brand logo-animation" routerLink="/">
+                    <span>U</span><span>p</span><span>a</span><span>m</span><span>a</span><span>n</span><span>y</span><span>u</span><span>.</span><span
+                        class="logo-content-second">me</span>
+      </a>
+
+   
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" routerLink="/work" routerLinkActive="active">Work</a></li>
+          <li class="nav-item"><a class="nav-link" [routerLink]="['/cv']">CV</a></li>
+          <li class="nav-item"><a class="nav-link" routerLink="/about" routerLinkActive="active">About</a></li>
+          <li class="nav-item"><a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</section>

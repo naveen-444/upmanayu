@@ -1,0 +1,767 @@
+
+:root {
+    --color-primary: #289ee3;
+    --color-text-dark: #414141;
+    --color-text-light: #ffffff;
+    --color-text-muted: #6a6a6a;
+    --color-background-light: #ffffff;
+    --color-background-dark: #0c0c0c;
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-primary);
+    background-color: var(--color-background-light);
+    color: var(--color-text-dark);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    width: 100%;
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+/* CSS for section section:header */
+.navbar-scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 94.5%;
+    padding: 0 40px;
+    transform: translate(3%, -0%);
+    backdrop-filter: blur(21.4px);
+    background: #D8D8D8;
+    background: rgb(255 255 255 / 50%) !important;
+}
+
+.navbar-custom {
+    background: #fff;
+    border-radius: 0 0px 8px 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0.75rem 1.5rem;
+    margin: 40px auto;
+}
+
+.nav-link {
+    color: #6A6A6A;
+    font-size: 0.9rem;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.light-section {
+    background: var(--gradient-light);
+    color: var(--color-text-dark);
+}
+
+/* Logo animation class */
+.logo-animation {
+    display: inline-block;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo-animation span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateX(0px);
+    /* Slide in from left */
+    transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.logo-content-second {
+    font-weight: 200;
+}
+
+/* Show first letter by default */
+.logo-animation span:first-child {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Animate letters on hover */
+.logo-animation:hover span {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Sequential animation delays */
+.logo-animation span {
+    transition-delay: 0.4s;
+}
+
+.tag-btn {
+    margin-bottom: 60px;
+}
+
+.tag-btn img {
+    margin-bottom: 30px;
+}
+
+.tag-btn h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #414141;
+}
+
+/* img endeavor section start */
+.endeavor-li li{
+    color: #000;
+}
+.Endeavor-img img {
+    width: 100%;
+    margin-bottom: 78px;
+}
+
+/* endeavor section start */
+.Endeavor-head h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #414141;
+    margin-bottom: 30px;
+}
+
+.Endeavor-left-side {
+    max-width: 1200px;
+    margin: auto;
+}
+.endeavor-li {
+	list-style: disc;
+	padding-left: 25px;
+	margin-bottom: 25px;
+}
+.Endeavor-left-side h6 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.Endeavor-left-sideul {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.Endeavor-left-side li {
+    margin-bottom: 8px;
+}
+
+.case-image img {
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.Endeavor-all {
+    margin-bottom: 70px;
+}
+
+hr.line {
+    opacity: 1;
+    margin-bottom: 80px;
+}
+
+.ufc-img {
+    text-align: center;
+    width: 100%;
+    padding-left: 140px;
+}
+
+.ufc-section-2 {
+    background-color: #Fff;
+    text-align: center;
+}
+
+.ufc-section-2 img {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.ufc-section-2 p {
+    margin: 0 268px;
+    font-size: 20px;
+    margin-bottom: 84px;
+    line-height: 186%;
+}
+
+.ufc-section-2 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #414141;
+    margin-bottom: 6px;
+}
+.challenges-left.col-md-6 p,
+.Execution-right.col-md-6 p {
+	margin-bottom: 15px;
+}
+.athlete-app h4 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 131%;
+	letter-spacing: 0px;
+	color: #414141;
+}
+/* ufc section start */
+/*challenges and excution section start  */
+.challenges-left h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 30px;
+
+}
+
+.challenges-left {
+    background-color: #F4F4F4;
+    padding: 45px;
+}
+
+.Execution-right h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 30px;
+    background-color: #1062B0;
+}
+
+.Execution-right strong {
+    color: #fff;
+}
+
+.Execution-right p {
+    color: #fff;
+}
+
+.Execution-right {
+    background-color: #1062B0;
+    padding: 45px;
+}
+
+.challenges-excution {
+    margin-bottom: 45px;
+}
+
+.athlete-app img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.athlete-app h4 h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #414141;
+    margin-bottom: 10px;
+}
+
+.athlete-app p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #414141;
+    margin-bottom: 50px;
+}
+.athlete-app p {
+	margin-top: 10px;
+}
+.athlete-head {
+    color: #414141;
+    opacity: 45%;
+    font-weight: 700;
+}
+
+.athlete-1 {
+    color: #414141;
+    opacity: 45%;
+}
+
+p.athlete-1 {
+    margin-bottom: 20px;
+}
+
+/* Athlete section start */
+.UFC-Athlete {
+    border-left: 1px solid;
+}
+
+.UFC-Athlete h5 {
+    margin-bottom: 30px;
+    color: #000;
+    line-height: 135%;
+    font-size: 30px;
+  font-weight: 400;
+}
+
+.Orientation {
+    display: flex;
+    border-bottom: 1px solid #C8C8C8;
+    align-items: baseline;
+    padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.Orientation h6 {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    width: 25%;
+}
+
+.Orientation p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 300
+}
+
+/* section-2 start */
+.section-2-img {
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+.intro-2 {
+	margin-top: 12px;
+}
+.design-head p {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.magic-ul{
+	list-style: disc;
+	padding-left: 21px;
+	margin-top: 21px;
+}
+.clossing{
+	list-style: disc;
+	padding-left: 21px;
+}
+.magic-p {
+	margin-top: 15px;
+}
+.section-3-img {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* intro section start */
+.intro h5 {
+    color: #414141;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    color: #414141;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.intro-2 h6 {
+    color: #414141;
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.img-3 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+/* Design Considerations section start */
+.design-head h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #414141;
+    margin-bottom: 11px;
+}
+
+.design-head h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #414141;
+}
+
+.design-head p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #414141;
+}
+
+.Design-Considerations-section {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.Design-Considerations {
+    padding-right: 125px;
+}
+
+/* story section start */
+.story h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #414141;
+    margin-bottom: 10px;
+}
+
+.story-p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #414141;
+    margin-bottom: 20px;
+}
+
+.story-1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #414141;
+    margin-bottom: 20px;
+}
+
+.magic h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #414141;
+    margin-top: 30px;
+}
+
+.magic li {
+    font-size: 16px;
+    ;
+    color: #414141;
+}
+
+.magic {
+    margin-bottom: 70px;
+}
+
+/* Closing-Study section start */
+.Closing-Study h5 {
+    margin-bottom: 10px;
+    color: #Fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Closing-Study h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 14px;
+}
+
+.Closing-Study {
+    background-color: #818181;
+    padding: 30px;
+    margin-left: -12px;
+}
+
+.Closing-Study p,
+ul {
+    color: #Fff;
+    margin-bottom: 30px;
+}
+
+.name h5 {
+    margin-bottom: 90px;
+}
+
+.project-img-head h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.prject-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prject-img img {
+    width: 32%;
+}
+
+/* * get in touch section start */ 
+.get-in-touch {
+    background-color: #525252;
+    padding-top: 127px;
+    padding-bottom: 127px;
+}
+
+.get-in-touch h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.get-in-touch p {
+    font-size: 20px;
+    color: #fff;
+}
+
+img.katysis1 {
+    margin-right: 25px;
+    border-right: 1px solid #424242;
+    padding-right: 25px;
+}
+
+/* CSS for section section:footer */
+.site-footer {
+    padding: 0;
+}
+
+.cta-bar {
+    background: radial-gradient(173.07% 205.27% at 50% 50%, #2a2a2a 0%, #292929 100%);
+    box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 72px;
+    color: #898989;
+    padding-left: 500px;
+}
+
+.cta-just {
+    color: #3D3D3D;
+}
+
+.cta-link {
+    font-size: 20px;
+    letter-spacing: -1.25px;
+    text-decoration: none;
+    color: #898989;
+}
+
+.cta-link strong {
+    font-weight: 700;
+    color: #A4DCFF;
+}
+
+.cta-tagline {
+    color: #a7a7a7;
+    font-size: 26px;
+    letter-spacing: -1.63px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.cta-tagline strong {
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.footer-main {
+    padding: 85px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 55px;
+    /* 8571 - (8486+24) */
+}
+
+.footer-nav a {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-text-light);
+    text-decoration: none;
+}
+
+.footer-nav li {
+    display: block;
+}
+
+.footer-description {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.56);
+    line-height: 1.5;
+    max-width: 1518px;
+    margin-bottom: 76px;
+    /* 8647 - (8571+0) */
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    display: block;
+    width: 29px;
+    height: 29px;
+}
+
+.social-links img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.footer-main {
+    padding: 85px 0;
+    background: #151515;
+}
+
+.copyright-bar {
+    background: linear-gradient(180deg, #0184ff 0%, #6fb8fd 100%);
+    box-shadow: inset 0px 7px 14px 0px rgba(0, 0, 0, 0.5);
+    height: 59px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--color-text-light);
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 50px;
+}
+
+.copyright-bar p {
+    margin-bottom: 0;
+}
+
+.copyright-bar strong {
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .cta-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .cta-link {
+        font-size: 16px;
+    }
+
+    .cta-link a {
+        font-size: 16px;
+    }
+
+    .cta-tagline {
+        font-size: 20px;
+    }
+
+    .footer-main {
+        padding: 40px 0;
+    }
+
+    .footer-nav ul {
+        gap: 15px;
+    }
+
+    .social-links {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .cta-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .cta-link {
+        font-size: 16px;
+    }
+
+    .cta-link a {
+        font-size: 16px;
+    }
+
+    .cta-tagline {
+        font-size: 20px;
+    }
+
+    .footer-main {
+        padding: 40px 0;
+    }
+
+    .footer-nav ul {
+        gap: 15px;
+    }
+
+    .social-links {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Design-Considerations-section {
+        display: block;
+        margin-bottom: 45px;
+    }
+
+    .section-3-img img {
+        width: 100%;
+    }
+
+    .ufc-img {
+        padding-left: 0px;
+    }
+
+    .Orientation {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .ufc-logo.container img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .cta-bar {
+        display: flex;
+        justify-content: space-around;
+        padding: 0px;
+    }
+
+    .ufc-section-2 p {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .Design-Considerations {
+        padding-right: 10px;
+    }
+
+    .section-3-img img {
+        width: 60%;
+    }
+
+    .Orientation h6 {
+
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,188 @@
+
+:root {
+    --color-primary: #289ee3;
+    --color-text-dark: #414141;
+    --color-text-light: #ffffff;
+    --color-text-muted: #6a6a6a;
+    --color-background-light: #ffffff;
+    --color-background-dark: #0c0c0c;
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-primary);
+    background-color: var(--color-background-light);
+    color: var(--color-text-dark);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    width: 100%;
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+/* CSS for section section:header */
+.navbar-scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 94.5%;
+    padding: 0 40px;
+    transform: translate(3%, -0%);
+    backdrop-filter: blur(21.4px);
+    background: #D8D8D8;
+    background: rgb(255 255 255 / 50%) !important;
+}
+
+.navbar-custom {
+    background: #fff;
+    border-radius: 0 0px 8px 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0.75rem 1.5rem;
+    margin: 40px auto;
+}
+
+.nav-link {
+    color: #6A6A6A;
+    font-size: 0.9rem;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.light-section {
+    background: var(--gradient-light);
+    color: var(--color-text-dark);
+}
+
+/* Logo animation class */
+.logo-animation {
+    display: inline-block;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo-animation span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateX(0px);
+    /* Slide in from left */
+    transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.logo-content-second {
+    font-weight: 200;
+}
+
+/* Show first letter by default */
+.logo-animation span:first-child {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Animate letters on hover */
+.logo-animation:hover span {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Sequential animation delays */
+.logo-animation span {
+    transition-delay: 0.4s;
+}
+
+.tag-btn {
+    margin-bottom: 30px;
+}
+
+/* your product design start  */
+
+.form-label {
+    font-weight: 600;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid #000;
+    border-radius: 0;
+    box-shadow: none;
+    width: 70%;
+}
+.heading-content {
+	color: #414141;
+	font-size: 16px;
+}
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+.product-row h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #414141;
+    margin-bottom: 20px;
+}
+.form-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #414141;
+    margin-bottom: 0;
+}
+
+.form-control {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 100%;
+	color: #414141;
+	padding-left: 0px;
+}
+form {
+	margin-top: 30px;
+}
+.product-row {
+    display: flex;
+    align-items: center;
+}
+.your-product-img img{
+    width: 100%;
+}
+.explore-button {
+    background: radial-gradient(173.07% 205.27% at 50% 50%, #323232 0%, #1f1f1f 100%);
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.79);
+  color: #ffefef;
+  font-size: 14px;
+  padding: 12px 52px;
+  text-decoration: none;
+  white-space: nowrap;
+  
+}
+
+.explore-button:hover {
+  background: #0088FF;
+  color: #ffffff;
+  font-weight: 600;
+}
+.Submit-btn {
+    margin-top: 50px;
+}
+
+@media (max-width: 767px){
+    .your-product-img {
+    margin-top: 30px;
+}
+.form-control {
+    width: 100%;
+}
+}
