@@ -10,22 +10,6 @@
     --font-secondary: 'Inter', sans-serif;
 }
 
-body {
-    margin: 0;
-    font-family: var(--font-primary);
-    background-color: var(--color-background-light);
-    color: var(--color-text-dark);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.container {
-    width: 100%;
-    max-width: 1520px;
-    margin: 0 auto;
-    padding: 0 40px;
-    box-sizing: border-box;
-}
 .project-card {
 	position: absolute;
 	background: white;
@@ -39,7 +23,16 @@ body {
   font-size: 40px;
   line-height: 1.15;
   font-weight: 400;
-  /* margin-bottom: 220px; */
+  margin-bottom: 220px;
+}
+.cstm-project-showcase .project-title {
+   margin-bottom: 0px;
+}
+.project-showcase.cisco-project.cstm-project-showcase {
+    border-radius: 20px;
+}
+.project-showcase.cisco-project.cstm-project-showcase .explore-button{
+      height: 40px;
 }
 .cisco-project .project-description {
   color: #181818;
@@ -55,99 +48,17 @@ body {
 }
 
 .noctis-project {
-  /* grid-template-columns: 557px 1fr; */
   gap: 42px;
 
 }
-/* .hover-wrapper:hover .card-container {
-   display: none;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-} */
+
 /* CSS for section section:header */
 
-.navbar-scrolled {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    width: 94.5%;
-    padding: 0 40px;
-    transform: translate(3%, -0%);
-    backdrop-filter: blur(21.4px);
-    background: #D8D8D8;
-    background: rgb(255 255 255 / 50%) !important;
-}
 .card-container {
     opacity: 0;
   visibility: hidden;
   transition: opacity 0.25s ease, visibility 0.25s ease;
   z-index: 10;
-}
-.card-container.show {
-  opacity: 1;
-  visibility: visible;
-}
-
-.navbar-custom {
-    background: #fff;
-    border-radius: 0 0px 8px 8px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 0.75rem 1.5rem;
-    margin: 40px auto;
-}
-
-.nav-link {
-    color: #6A6A6A;
-    font-size: 0.9rem;
-    margin-left: 20px;
-}
-
-.nav-link:hover {
-    color: #000;
-}
-
-.light-section {
-    background: var(--gradient-light);
-    color: var(--color-text-dark);
-}
-
-/* Logo animation class */
-.logo-animation {
-    display: inline-block;
-    cursor: pointer;
-    white-space: nowrap;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.logo-animation span {
-    display: inline-block;
-    opacity: 0;
-    transform: translateX(0px);
-    /* Slide in from left */
-    transition: transform 0.6s ease, opacity 0.6s ease;
-}
-
-.logo-content-second {
-    font-weight: 200;
-}
-
-/* Show first letter by default */
-.logo-animation span:first-child {
-    opacity: 1;
-    transform: translateX(0);
-}
-
-/* Animate letters on hover */
-.logo-animation:hover span {
-    opacity: 1;
-    transform: translateX(0);
-}
-
-/* Sequential animation delays */
-.logo-animation span {
-    transition-delay: 0.4s;
 }
 
 
@@ -242,77 +153,10 @@ body {
 .right-logo {
     text-align: center;
 }
-/* get in touch section start */
-.get-in-touch {
-    background-color: #525252;
-    padding-top: 127px;
-    padding-bottom: 127px;
-}
-.get-in-touch h4{
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-    margin-bottom: 0;
-}
-.get-in-touch p{
-    font-size: 20px;
-    color: #fff;
-}
-img.katysis1 {
-    margin-right: 25px;
-    border-right: 1px solid #424242;
-    padding-right: 25px;
-}
+
 /* CSS for section section:footer */
-.site-footer {
-  background: radial-gradient(173.07% 205.27% at 50% 50%, #000000 0%, #151515 100%);
-  color: var(--color-text-light);
-}
-
-.cta-bar {
-  background: radial-gradient(173.07% 205.27% at 50% 50%, #2a2a2a 0%, #292929 100%);
-  box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 72px;
-  color: #898989;
-  padding-left: 500px;
-}
-
-.cta-just {
-  color: #3D3D3D;
-}
-
-.cta-link {
-  font-size: 20px;
-  letter-spacing: -1.25px;
-  text-decoration: none;
-  color: #898989;
-}
-
-.cta-link strong {
-  font-weight: 700;
-  color: #A4DCFF;
-}
-
-.cta-tagline {
-  color: #a7a7a7;
-  font-size: 26px;
-  letter-spacing: -1.63px;
-  font-weight: 400;
-  margin: 0;
-}
-
-.cta-tagline strong {
-  font-weight: 700;
-  color: var(--color-primary);
-}
 
 
-.footer-main {
-  padding: 116px 0 69px;
-}
 
 .footer-nav {
   display: flex;
@@ -320,13 +164,6 @@ img.katysis1 {
   gap: 30px;
   margin-bottom: 61px;
   flex-wrap: wrap;
-}
-
-.footer-nav a {
-  color: var(--color-text-light);
-  font-size: 16px;
-  font-weight: 600;
-  text-decoration: none;
 }
 
 .footer-text {
@@ -411,38 +248,13 @@ img.katysis1 {
 }
 
 .explore-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 166px;
-  height: 46px;
   background: radial-gradient(48deg 363.98% 54.58% at 50.69% 0.06%, #1F1F1F 0%, #323232 100%);
   border-radius: 5px;
   box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.79);
-  color: #ffefef;
-  font-size: 14px;
-  font-weight: 400;
-  flex-shrink: 0;
   margin-bottom: 22px;
 }
 
-.explore-button:hover {
-  background: #0088FF;
-  color: #ffffff;
-  font-weight: 600;
-}
-
 @media (max-width: 768px) {
-  .cta-bar {
-    flex-direction: column;
-    height: auto;
-    padding: 20px;
-    gap: 10px;
-  }
-
-  .cta-tagline {
-    font-size: 20px;
-  }
 
   .footer-nav {
     gap: 15px;

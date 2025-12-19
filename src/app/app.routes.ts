@@ -9,6 +9,10 @@ import { CaseStudies1 } from './pages/case_studies1/case_studies1';
 import { CaseStudies2 } from './pages/case_studies2/cast_studies2';
 import { Work } from './pages/work/work';
 import { CaseStudiesParent1 } from './pages/case_studies_parent1/case_studies_parent1';
+import { CaseStudiesParent1Wepegasus } from './pages/case_studies_parent1_ wepegasus/case_studies_parent1_ wepegasus';
+import { CaseStudiesParent1FlashAi} from './pages/case_studies_parent1_flashai/case_studies_parent1_flashai';
+import { CaseStudiesParent1FlashAi1} from './pages/case_studies_parent1_flashai1/case_studies_parent1_flashai1';
+import { CaseStudiesParent1FlashAi2} from './pages/case_studies_parent1_flashai2/case_studies_parent1_flashai2';
 
 export const routes: Routes = [
   {
@@ -24,6 +28,11 @@ export const routes: Routes = [
       { path: 'case-study1', component: CaseStudies1, data: { title: 'Case Study 1 - Upamanyu Naskar' }  },
       { path: 'case-study2', component: CaseStudies2, data: { title: 'Case Study 2 - Upamanyu Naskar' } },
       { path: 'case-study-parent1', component: CaseStudiesParent1, data: { title: 'Case Study Parent - Upamanyu Naskar' } },
+      { path: 'case-study-parent1-wepegasus', component: CaseStudiesParent1Wepegasus, data: { title: 'Case Study Parent - Wepegasus' } },
+     { path: 'case-study-parent1-flashai', component: CaseStudiesParent1FlashAi, data: { title: 'Case Study Parent - FlashAI' } },
+    { path: 'case-study-parent1-flashai1', component: CaseStudiesParent1FlashAi1, data: { title: 'Case Study Parent - FlashAI' } },
+     { path: 'case-study-parent1-flashai2', component: CaseStudiesParent1FlashAi2, data: { title: 'Case Study Parent - FlashAI' } },
+   
     ],
   },
   { path: '**', redirectTo: '' },

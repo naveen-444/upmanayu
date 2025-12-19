@@ -37,7 +37,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1520px;
+    max-width: 1350px;
     margin: 0 auto;
     padding: 0 40px;
     box-sizing: border-box;
@@ -793,6 +793,7 @@ hr.divider-1 {
   background-color: #ffffff;
   color: var(--color-text-dark);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
 }
 
 .card-image-placeholder {
@@ -1105,6 +1106,7 @@ hr.divider-1 {
 .site-footer {
      background: radial-gradient(173.07% 205.27% at 50% 50%, #000000 0%, #151515 100%);
     color: var(--color-text-light);
+      padding: 0;
 }
 
 .cta-bar {
@@ -1146,6 +1148,7 @@ hr.divider-1 {
 
 .footer-main {
   padding: 85px 0;
+   background: #151515;
 }
 
 .footer-container {
@@ -1168,6 +1171,7 @@ hr.divider-1 {
   font-size: 16px;
   font-weight: 600;
   color: var(--color-text-light);
+    text-decoration: none;
 }
 
 .footer-description {
@@ -1208,11 +1212,19 @@ hr.divider-1 {
   font-weight: 400;
   padding-right: 50px;
 }
-
+.copyright-bar p{
+    margin-bottom: 0;
+}
 .copyright-bar strong {
   font-weight: 700;
 }
-
+@media (max-width: 1023px) {
+    .cta-bar {
+        display: flex;
+        justify-content: space-around;
+        padding: 0px;
+    }
+  }
 @media (max-width: 768px) {
   .cta-bar {
     flex-direction: column;
@@ -1224,7 +1236,9 @@ hr.divider-1 {
   .cta-link {
     font-size: 16px;
   }
-
+.cta-link a {
+    font-size: 16px;
+  }
   .cta-tagline {
     font-size: 20px;
   }
@@ -1279,3 +1293,85 @@ hr.divider-1 {
 }
 
 
+.tag-btn {
+    margin-bottom: 60px;
+}
+
+.tag-btn img {
+    margin-bottom: 30px;
+}
+
+.tag-btn h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #414141;
+}
+.Endeavor-img img {
+    width: 100%;
+}
+.Endeavor-head h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #414141;
+    margin-bottom: 30px;
+}
+.Endeavor-left-side {
+    max-width: 1200px;
+    margin: auto;
+}
+.Endeavor-left-side h6 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.Endeavor-left-sideul {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.Endeavor-left-side li {
+    margin-bottom: 8px;
+}
+
+.case-image img {
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.Endeavor-all {
+    margin-bottom: 70px;
+}
+/* get in touch section start */
+.get-in-touch {
+  background-color: #525252;
+  padding-top: 127px;
+  padding-bottom: 127px;
+  margin-top: 100px;
+}
+
+.get-in-touch h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.get-in-touch p {
+  font-size: 20px;
+  color: #fff;
+}
+
+img.katysis1 {
+  margin-right: 25px;
+  border-right: 1px solid #424242;
+  padding-right: 25px;
+}
+
+.get-in-touch{
+    background-color: #525252;
+    padding-top: 127px;
+    padding-bottom: 127px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}

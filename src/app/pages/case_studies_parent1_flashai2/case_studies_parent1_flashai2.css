@@ -1,0 +1,623 @@
+
+:root {
+    --color-primary: #289ee3;
+    --color-text-dark: #414141;
+    --color-text-light: #ffffff;
+    --color-text-muted: #6a6a6a;
+    --color-background-light: #ffffff;
+    --color-background-dark: #0c0c0c;
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Inter', sans-serif;
+}
+ul.endeavor-li {
+    list-style: disc;
+    margin-left: 30px;
+}
+
+ul.purpose,
+.sub-purpose {
+    list-style: disc;
+}
+ 
+.sub-purpose {
+   margin-bottom: 30px;
+       margin-left: 30px;
+}
+ 
+.hide-list-style{
+    list-style: none;
+}
+li.main-ol-li::marker {
+    font-size: 20px;
+    font-weight: bold;
+    color: #414141;
+}
+ol.hide-list-style {
+    padding-left: 0px!important;
+}
+
+
+.tag-btn {
+    margin-bottom: 60px;
+}
+
+.tag-btn img {
+    margin-bottom: 30px;
+}
+
+.tag-btn h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #414141;
+}
+
+/* img endeavor section start */
+.endeavor-li li {
+    color: #000;
+}
+
+.Endeavor-img img {
+    width: 100%;
+    margin-bottom: 78px;
+}
+
+/* endeavor section start */
+.Endeavor-head h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #414141;
+    margin-bottom: 30px;
+}
+
+.Endeavor-left-side {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.Endeavor-left-side h6 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.Endeavor-left-sideul {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.Endeavor-left-side li {
+    margin-bottom: 8px;
+}
+
+.case-image img {
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.Endeavor-all {
+    margin-bottom: 70px;
+}
+
+hr.line {
+    opacity: 1;
+    margin-bottom: 80px;
+}
+
+.ufc-img {
+    text-align: center;
+    width: 100%;
+    padding-left: 140px;
+}
+
+.ufc-section-2 {
+    background-color: #Fff;
+    text-align: center;
+}
+
+.ufc-section-2 img {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.ufc-section-2 p {
+    margin: 0 268px;
+    font-size: 20px;
+    margin-bottom: 84px;
+    line-height: 186%;
+}
+
+.ufc-section-2 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #414141;
+}
+
+/* object section start */
+.object-left h3 {
+    font-size: 100px;
+    color: #414141;
+    font-weight: 400;
+}
+
+.object-right p {
+    font-size: 20px;
+    color: #414141;
+}
+
+.object {
+    margin-bottom: 275px;
+}
+
+/* table section start */
+.table-box {
+    border: 1px solid #414141;
+    overflow: hidden;
+}
+
+.row-border {
+    border-bottom: 1px solid #414141;
+    margin-bottom: 55px;
+}
+
+.label-col {
+    width: 20%;
+    padding: 1.5rem;
+    margin-bottom: 80px;
+}
+
+.content-col {
+    padding: 1.5rem;
+}
+
+.col-md-3.label-col {
+    color: #414141;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.module-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #414141;
+}
+
+.table {
+    padding: 0px 170px;
+    margin-bottom: 41px;
+}
+
+.content-col .table-p{
+    font-size: 20px;
+    color: #414141;
+    font-weight: 400;
+}
+
+/*challenges and excution section start  */
+.challenges-left h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 71px;
+
+}
+
+.challenges-left {
+    background-color: #F4F4F4;
+    padding: 45px;
+}
+
+.Execution-right h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 71px;
+    background-color: #1062B0;
+}
+
+.Execution-right strong {
+    color: #fff;
+}
+
+.Execution-right p {
+    color: #fff;
+    margin-bottom: 71px;
+}
+
+.Execution-right {
+    background-color: #1062B0;
+    padding: 45px;
+}
+
+.challenges-excution {
+    margin-bottom: 45px;
+}
+
+/* athlete section start */
+.athlete-app img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.athlete-app h4 h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #414141;
+    margin-bottom: 10px;
+}
+
+.athlete-app p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #414141;
+    margin-bottom: 50px;
+     margin-top: 11px;
+}
+.athlete-head {
+	font-size: 18px;
+	font-weight: 700;
+}
+.athlete-head {
+    color: #414141;
+    opacity: 45%;
+}
+
+.athlete-1 {
+    color: #414141;
+    opacity: 45%;
+}
+
+p.athlete-1 {
+    margin-bottom: 20px;
+}
+
+/* Athlete section start */
+.UFC-Athlete {
+    border-left: 1px solid;
+    padding-left: 26px;
+}
+
+.UFC-Athlete h5 {
+    margin-bottom: 30px;
+    color: #000;
+    line-height: 135%;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.Orientation {
+    display: flex;
+    border-bottom: 1px solid #C8C8C8;
+    align-items: baseline;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.Orientation h6 {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    width: 25%;
+}
+
+.Orientation p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400
+}
+
+ol.side-bar-heading li {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #414141;
+}
+
+.side-bar-heading img {
+    width: 100%;
+}
+
+.side-bar h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #414141;
+}
+
+/* Design Considerations section start */
+.design-head h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.design-head h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #414141;
+}
+
+.design-head p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #414141;
+}
+
+.story-behind-section {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.story-behind {
+    padding-right: 20px;
+}
+
+/* story section start */
+.story h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #414141;
+    margin-bottom: 10px;
+}
+
+.story-p {
+    font-size: 16px;
+    color: #414141;
+    margin-bottom: 20px;
+}
+
+.story-1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #414141;
+    margin-bottom: 20px;
+}
+
+/* section-2 start */
+.section-2-img {
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+
+.section-3-img {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+/* intro section start */
+.intro h5 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+.intro.intro-2 {
+	margin-top: 20px;
+}
+.purpose {
+	list-style: disc;
+	padding-left: 21px;
+	margin-top: 21px;
+}
+.purpose-subli {
+	list-style: disc;
+	margin-top: 3px;
+	padding-left: 33px;
+}
+.purpose-subli {
+	margin-bottom: 0px !important;
+}
+.custom-main-ul {
+	list-style: disc;
+	padding-left: 21px;
+	margin-top: 21px;
+}
+.img-3 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+/* img-3-heading section start */
+.img-3-heading p {
+    font-size: 25px;
+    color: #727272;
+    margin-bottom: 65px;
+}
+
+/* global header section start */
+.global-heading li {
+    font-size: 20px;
+    font-weight: bold;
+    color: #414141;
+    margin-bottom: 20px;
+}
+
+.global-heading img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.purpose-li {
+    color: #414141;
+}
+
+.Global-Header h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #414141;
+}
+.get-in-touch{
+    margin-top: 0px;
+}
+
+/* .Global-Header {
+    border-bottom: 2px dotted #000;
+} */
+ .border-bottom-global{
+    border-bottom: 2px dotted #000;
+ }
+.side-bar {
+    border-bottom: 2px dotted;
+}
+.Design-Considerations h3 {
+    margin-top: 50px;
+    margin-bottom: 14px;
+}
+.Design-Considerations {
+    border-bottom: 2px dotted;
+    margin-bottom: 50px;
+}
+.story-behind {
+	width: 60%;
+}
+.Design-Considerations-img {
+	width: 40%;
+}
+.Design-Considerations-img img {
+	height: 100%;
+}
+/* Closing-Study section start */
+.Closing-Study h5 {
+    margin-bottom: 10px;
+    color: #Fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Closing-Study h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 14px;
+}
+
+.Closing-Study {
+    background-color: #818181;
+    padding: 30px;
+    margin-left: -12px;
+    margin-top: 30px;
+}
+
+.Closing-Study p,
+ul {
+    color: #Fff;
+    margin-bottom: 30px;
+}
+.clossing-last-p {
+	margin-bottom: 8px !important;
+}
+.name h5 {
+    margin-bottom: 90px;
+}
+
+.project-img-head h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.prject-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prject-img a {
+    width: 32%;
+}
+
+/* * get in touch section start */
+.get-in-touch {
+    background-color: #525252;
+    padding-top: 127px;
+    padding-bottom: 127px;
+}
+
+.get-in-touch h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.get-in-touch p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+  margin-top: 10px;
+}
+
+img.katysis1 {
+    margin-right: 25px;
+    border-right: 1px solid #424242;
+    padding-right: 25px;
+}
+.athlete-app h4 {
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 18px;
+	line-height: 131%;
+	letter-spacing: 0px;
+}
+
+/* CSS for section section:footer */
+.site-footer {
+    padding: 0;
+}
+
+
+.footer-nav li {
+    display: block;
+}
+
+
+@media (max-width: 767px) {
+    .challenges-left{
+	padding: 45px 0px;
+}
+.story-behind {
+	width: 100%;
+}
+ .Orientation {
+        display: block;
+        margin-top: 20px;
+    }
+    .Design-Considerations-img img {
+    width: 100%;
+}
+.object-left h3 {
+        font-size: 40px !important;
+    }
+
+}
+
+@media (max-width: 1023px) {
+
+
+    .story-behind-section {
+        display: block;
+        margin-bottom: 45px;
+    }
+
+    .Orientation h6 {
+        width: 100%;
+    }
+
+    .table {
+        padding: 0px 25px;
+    }
+}
+
+@media (max-width: 1439px) {
+    .object-left h3 {
+        font-size: 50px;
+    }
+}
