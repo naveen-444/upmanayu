@@ -120,7 +120,25 @@ hr.line {
 
 
 @media (max-width: 767px) {
-   
+   .object-left h3 {
+    font-size: 46px!important;
+}
+hr.line, .object{
+    margin-bottom: 60px;
+}
+.label-col {
+    margin-bottom: 0px!important;
+}
+.row-border{
+    margin-bottom: 20px!important;
+}
+.label-col {
+    width: 100%!important;
+    padding: 0px 1.5rem!important;
+}
+.content-col p {
+    font-size: 15px!important
+}
     .project-form-img img {
         margin-bottom: 30px;
     }

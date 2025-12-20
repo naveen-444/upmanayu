@@ -574,8 +574,50 @@ img.katysis1 {
 
 
 @media (max-width: 767px) {
+    .Design-Considerations-img{
+    width: 100%!important;
+    margin-top: 20px!important;
+}
     .challenges-left{
-	padding: 45px 0px;
+	padding: 40px 20px;
+}
+.challenges-left h3 {
+    margin-bottom: 40px;
+}
+.Execution-right h3{
+    margin-bottom: 35px;
+}
+.Execution-right p{
+    margin-bottom: 35px;
+}
+.Execution-right {
+    padding: 40px 20px;
+}
+.UFC-Athlete h5 {
+    font-size: 24px;
+}
+.object{
+    margin-bottom: 60px;
+}
+.table-box {
+    padding: 20px !important;
+}
+ol.noctis-structure {
+    padding-left: 15px;
+}
+.label-col{
+    width: 100%!important;
+    padding: 0px 1.5rem!important;
+    margin-bottom: 0px!important;
+}
+.row-border {
+    margin-bottom: 20px;
+}
+.content-col p {
+    font-size: 15px !important;
+}
+hr.line {
+    margin-bottom: 40px;
 }
 .story-behind {
 	width: 100%;

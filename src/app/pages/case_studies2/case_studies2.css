@@ -403,9 +403,18 @@ ul {
     .ufc-logo.container img {
         width: 100%;
     }
-    .ufc-logo.container img {
-        width: 50%;
-    }
+   .ufc-section-2{
+        text-align: left;
+   }
+   .ufc-section-2  h3 {
+    font-size: 24px;
+}
+.challenges-left {
+    padding: 40px 20px;
+}
+.Execution-right {
+    padding: 40px 20px;
+}
     .Design-Considerations-img img {
     width: 50%;
 }

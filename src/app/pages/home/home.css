@@ -255,11 +255,19 @@
 }
 
 @media (max-width: 768px) {
-
+.project-title[_ngcontent-ng-c658385314] {
+    font-size: 30px;
+    margin-bottom: 97px;
+}
   .footer-nav {
     gap: 15px;
   }
-
+.project-highlights h4 {
+    margin-bottom: 100px;
+}
+.capabilities-title {
+    font-size: 30px;
+}
   .footer-bottom-bar {
     text-align: center;
     padding: 20px;

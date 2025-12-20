@@ -37,7 +37,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1350px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 40px;
     box-sizing: border-box;
@@ -405,10 +405,13 @@ font-size: 22px;
 
 @media (max-width: 768px) {
   .hero-section {
-    padding-top: 150px;
+    padding-top: 90px;
     padding-bottom: 80px;
     text-align: center;
   }
+  .container {
+    padding: 0 20px;
+}
 
   .hero-text {
     max-width: 100%;
@@ -510,7 +513,7 @@ font-size: 22px;
   .experience-content-wrapper {
     flex-direction: column;
     align-items: flex-start;
-    padding: 40px;
+    padding: 40px 20px;
   }
 
   .explore-button {
@@ -745,6 +748,12 @@ hr.divider-1 {
 }
 
 @media (max-width: 768px) {
+  .gallery-title {
+    font-size: 30px!important;
+}
+.main-hero-left {
+    row-gap: 20px!important;
+}
   .project-details-grid {
     grid-template-columns: 1fr;
   }
@@ -1073,7 +1082,7 @@ hr.divider-1 {
 }
 
 .phone-bg {
-  width: 317px;
+  width: 417px;
   height: 662px;
   border-radius: 60px;
 }
@@ -1083,7 +1092,7 @@ hr.divider-1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 339px;
+  /* width: 339px; */
 }
 
 @media (max-width: 768px) {
@@ -1094,7 +1103,7 @@ hr.divider-1 {
 
   .phone-bg {
     width: 250px;
-    height: 520px;
+    height: 388px;
   }
 
   .phone-screen {

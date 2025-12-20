@@ -172,6 +172,9 @@ section {
 
 
 @media (max-width: 768px) {
+  /* .main-hero-left {
+    padding-top: 20px;
+} */
   .modal-main-content {
 flex-wrap: wrap;
 }
@@ -442,6 +445,72 @@ flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
+  .main-hero-left {
+    height: 600px!important;
+    margin-bottom: 70px;
+}
+.work-hero-section{
+    padding-bottom: 100px;
+}
+.million-dollar-projects-section{
+    padding-top: 90px!important;
+    padding-bottom: 90px!important;
+}
+.objective-section {
+    margin-bottom: 66px!important;
+}
+.partner-avatars img {
+    position: absolute;
+    top: 26px!important;
+}
+.scope-section{
+    padding: 40px 20px!important;
+}
+.innovations-title {
+    font-size: 34px!important;
+    margin: 0 0 32px 0px!important;
+    text-align: center;
+}
+.innovations-wrapper{
+    margin-top: 74px!important;
+    padding-bottom: 30px;
+}
+.innovations-cta {
+    text-align: left!important;
+}
+.partners-text[_ngcontent-ng-c3955071774] {
+    align-self: center!important;
+    margin-top: 17px!important;
+}
+  .partner-avatars{
+  position: unset;
+  }
+  .hero-title {
+    font-size: 29px!important;
+}
+.partner-avatars  img{
+    width: 30px;
+    height: 30px;
+}
+.partner-avatars   img:nth-child(3) {
+    left: 143px;
+}
+.partner-avatars  img:nth-child(2) {
+    left: 95px;
+}
+.partner-avatars  img:nth-child(1) {
+    left: 46px;
+}
+.partner-avatars  img {
+    position: absolute;
+    top: 6px;
+}
+.million-dollar-projects-section .section-title {
+    margin-bottom: 54px!important;
+}
+.section-title{
+    font-size: 29px;
+}
   .hero-grid {
     grid-template-columns: 1fr;
   }
@@ -803,7 +872,7 @@ flex-wrap: wrap;
   }
 
   .objective-title {
-    font-size: 60px;
+    font-size: 46px;
   }
 
   .objective-text {
@@ -946,6 +1015,23 @@ flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
+  .stats-rating{
+    bottom: 14px;
+    gap: 9px;
+    align-items: center;
+    flex-direction: column;
+    width: 76%;
+}
+.rating-score{
+    font-size: 80px;
+}
+.star-images {
+    justify-content: center;
+}
+.rating-stars {
+    position: relative;
+    text-align: center;
+}
   .gallery-grid {
     grid-template-columns: 1fr;
   }
