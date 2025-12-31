@@ -1,26 +1,23 @@
- <div class="work-page">
- <section id="hero" class="hero-section light-section">
-      <div class="container hero-container">
-        <div class="hero-text">
-          <p class="hero-intro">
-            Hi, I’m Upamanyu Naskar,<br />
-            <strong>Sr. Product Designer</strong>
-          </p>
-          <h1 class="hero-headline">
-            I craft products where innovation meets elegance
-          </h1>
-          <p class="hero-description">
-            Designing and launching high-impact products across web, mobile,
-            and<br />
-            enterprise systems. Previously, led product experiences for<br />
-            <strong>12 ERPs, 18 apps, and 100+ websites</strong>
-            <br /><br />
-            At Endeavor; built ecosystem-first systems<br />
-            Academic consulting at WePegasus;<br />
-            and directed brand and UX transformations for global clients.
-          </p>
-        </div>
-        <!-- <div class="hover-wrapper" >
+<div class="work-page" >
+  <section id="hero" class="hero-section light-section">
+    <div class="container hero-container">
+      <div class="hero-text">
+        <p class="hero-intro">
+          Hi, I’m Upamanyu Naskar,<br />
+          <strong>Sr. Product Designer</strong>
+        </p>
+        <h1 class="hero-headline">I craft products where innovation meets elegance</h1>
+        <p class="hero-description">
+          Designing and launching high-impact products across web, mobile, and<br />
+          enterprise systems. Previously, led product experiences for<br />
+          <strong>12 ERPs, 18 apps, and 100+ websites</strong>
+          <br /><br />
+          At Endeavor; built ecosystem-first systems<br />
+          Academic consulting at WePegasus;<br />
+          and directed brand and UX transformations for global clients.
+        </p>
+      </div>
+      <!-- <div class="hover-wrapper" >
         <div class="hero-hover-button" >
           <div class="hover-circle" (mouseover)="showCard()"
      (mouseleave)="hideCard()">
@@ -45,268 +42,299 @@
           </section>
         </div>
         </div> -->
-        <div class="hover-wrapper"
-     (mouseenter)="showCard()"
-     (mouseleave)="hideCard()">
+      <div class="hover-wrapper" (mouseenter)="showCard()" (mouseleave)="hideCard()">
+        <div class="hero-hover-button">
+          <div class="hover-circle">
+            <img src="/assets/images/Ellipse 6.png" />
+            <span class="hovercontentmain">
+              <span class="content-hover">HOVER</span>
+              <span class="arrow-hover">&gt;</span>
+            </span>
+          </div>
+        </div>
 
-  <div class="hero-hover-button">
-    <div class="hover-circle">
-      <img src="/assets/images/Ellipse 6.png" />
-      <span class="hovercontentmain">
-        <span class="content-hover">HOVER</span>
-        <span class="arrow-hover">&gt;</span>
-      </span>
-    </div>
-  </div>
+        <div class="card-container" [class.show]="isCardVisible">
+          <section class="projects-section">
+            <a routerLink="/cv">
+              <h2><span class="hash-color">#</span>Projects</h2>
+              <p>Explore the Mockup.<br />Discover the Insight.</p>
+              <span class="arrow">▶</span>
+            </a>
+          </section>
 
-  <div class="card-container" [class.show]="isCardVisible">
-    <section class="projects-section">
-      <h2><span class="hash-color">#</span><a routerLink="/work">Projects</a></h2>
-      <p>Explore the Mockup.<br />Discover the Insight.</p>
-      <span class="arrow">▶</span>
-    </section>
-
-    <section class="about-section">
-      <h2><span class="hash-color">#</span>
-        <a routerLink="/work">Work</a>
-      </h2>
-      <p>The Creations & the <br />Technology</p>
-      <span class="arrow">▶</span>
-    </section>
-  </div>
-
-</div>
-
+          <section class="about-section">
+            <a routerLink="/work">
+              <h2>
+                <span class="hash-color">#</span>
+                <a routerLink="/work">Work</a>
+              </h2>
+              <p>The Creations & the <br />Technology</p>
+              <span class="arrow">▶</span>
+            </a>
+          </section>
+        </div>
       </div>
-    </section>
-    <section id="experience" class="experience-section dark-section">
-        <div class="container">
-            <div class="experience-content-wrapper">
-                <div class="experience-text-content">
-                    <img src="/assets/images/78_120.svg" alt="Endeavor Group Logo" class="endeavor-logo">
-                    <h2 class="experience-title">Previously worked at <strong>Endeavor</strong></h2>
-                    <hr class="divider">
-                    <h3 class="experience-subtitle">End-to-End Product Execution:</h3>
-                    <p class="experience-description">At Endeavor, I led the full product lifecycle — from idea to
-                        launch — across 3 custom ERPs, 2 mobile apps, and 3 websites. I owned the process from
-                        wireframes to workflows, aligning business goals with intuitive design, scalable architecture,
-                        and seamless developer handoffs. Every product shipped was built for performance, usability, and
-                        growth.</p>
-                </div>
-                <a routerLink="/case-study" class="explore-button">Explore &gt;</a>
-            </div>
-        </div>
-    </section>
-    <section id="projects" class="project-section dark-section">
-        <div class="container">
-            <!-- NOCTIS Project -->
-            <div class="project-showcase noctis-project">
-                <div class="project-info">
-                    <h2 class="project-title"><strong>NOCTIS:</strong><br>A Unified Command <br>Console for
-                        Enterprise<br>
-                        Networks</h2>
-                    <h3 class="project-subtitle">Network Operations Command, <br>Threat Intelligence & Security</h3>
-                    <p class="project-description">Powered by Cisco modules, NOCTIS unifies monitoring, access control,
-                        and threat response into one console. Built with cross-functional precision, it delivers
-                        real-time packet tracing, AI-driven security, and seamless scalability for enterprise networks.
-                    </p>
-                    <a routerLink="/case-study-parent1" class="explore-button">Explore &gt;</a>
-                </div>
-                <div class="project-visuals">
-                    <img src="/assets/images/db0356bfc73695bc4e7a6a8d4f4f86350c021821.png" alt="NOCTIS dashboard"
-                        class="main-project-image1">
-                    <div class="project-card">
-                        <h4 class="project-card-title">NOCTIS</h4>
-                        <p class="project-card-text">
-                            <strong>Production time:</strong><br>~55,250 hours over 25 months.<br>
-                            <strong>Team:</strong><br>13 cross-functional resources<br>
-                            <em>(frontend, backend, network engineering, product management, and UX research)</em>
-                        </p>
-                    </div>
-                       </div>
-                    <div class="project-highlights">
-                        <h4>Highlights</h4>
-                        <div class="highlight-item">
-                            <h5>Network Operations</h5>
-                            <p>Monitoring, Load Balancing, Traffic Optimisation</p>
-                            <a routerLink="/case-study-parent1"class="explore-link">Explore</a>
-                        </div>
-                        <div class="highlight-item">
-                            <h5>Threat Intelligence</h5>
-                            <p>AI-driven anomaly detection, predictive alerts</p>
-                            <a routerLink="/case-study-parent1" class="explore-link">Explore</a>
-                        </div>
-                    </div>
-             
-            </div>
-        </div>
-        <div class="container">
-            <div class="project-details-grid">
-                <div class="detail-item">
-                    <div class="detail-image-placeholder">
-                        <a routerLink="/case-study-parent1">
-                            <img src="/assets/images/the_ideation.png">
-                        </a>
-                    </div>
-                    <div class="detail-itemcontent">
-                        <h5>THE IDEATION</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-image-placeholder">
-                        <a routerLink="/case-study-parent1">
-                            <img src="/assets/images/process.png">
-                        </a>
-                    </div>
-                    <div class="detail-itemcontent">
-                        <h5>THE PROCESS</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-image-placeholder">
-                        <a routerLink="/case-study-parent1">
-                            <img src="/assets/images/collabs.png">
-                        </a>
-                    </div>
-                    <div class="detail-itemcontent">
-                        <h5>THE COLLABS</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-image-placeholder">
-                        <a routerLink="/case-study-parent1">
-                            <img src="/assets/images/phases.png">
-                        </a>
-                    </div>
-                    <div class="detail-itemcontent">
-                        <h5>THE PHASES</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- CISCO Project -->
-        <div class="section-divider">
-            <hr class="divider-1">
-        </div>
-        <div class="container">
-            <div class="project-showcase cisco-project cstm-project-showcase">
-                <div class="project-info">
-                    <p class="construction-tag">From Rebranding to 1st Customer</p>
-                    <h2 class="project-title">Ivy League <br><strong>Admissions</strong></h2>
-                    <p class="project-description">WePegasus is a content-first education startup that designs its way into growth.
-                         By turning storytelling, design, and data into lead magnets, WePegasus transforms admission consulting into a creative engine, fueling its rise as a next-generation education content company.</p>
-                    <a href="#" class="explore-button">Explore &gt;</a>
-                </div>
-                <div class="project-visuals">
-                    <img src="/assets/images/ivy.png"
-                        alt="CISCO Security Systems dashboard" class="main-project-image">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="capabilities" class="capabilities-section dark-section">
-        <div class="container">
-            <div class="capabilities-header">
-                <h2 class="capabilities-title">Multiple Capabilities, <br>
-                  <strong>One Unified Design Philosophy</strong></h2>
-                <p class="capabilities-description">The foundational modules I designed to transform WePegasus from an idea into an 
-                    operational product</p>
-            </div>
-            <div class="capabilities-grid">
-                <div class="capability-card">
-                    <!-- <div class="card-image-placeholder"> -->
-                         <img src="/assets/images/customwebsite.png">
-                    <!-- </div> -->
-                    <div class="card-content">
-                        <h4>CUSTOM WEBSITES</h4>
-                        <p>Built conversion-focused, multi-device experiences that balance storytelling with performance.
-                        </p>
-                        <a href="#" class="explore-link">Explore</a>
-                    </div>
-                </div>
-                <div class="capability-card"  >
-                    <!-- <div class="card-image-placeholder"></div> -->
-                      <img src="/assets/images/ai-db.png">
-                    <div class="card-content">
-                        <h4>AI-DB ENGINES</h4>
-                        <p>Designed narrative-intelligence layers that detect tone shifts, missing context, and...
-                        </p>
-                        <a href="#" class="explore-link">Explore</a>
-                    </div>
-                </div>
-                <div class="capability-card">
-                    <!-- <div class="card-image-placeholder"></div> -->
-                      <img src="/assets/images/product-identity.png">
-                    <div class="card-content">
-                        <h4>PRODUCT IDENTITY</h4>
-                        <p>Crafted a unified visual and interaction identity for WePegasus...
-                        </p>
-                        <a href="#" class="explore-link">Explore</a>
-                    </div>
-                </div>
-                <div class="capability-card">
-                    <!-- <div class="card-image-placeholder"></div> -->
-                       <img src="/assets/images/product-marketing.png">
-                    <div class="card-content">
-                        <h4>PRODUCT MARKETING</h4>
-                        <p>Engineered high-intent marketing assets, editorial systems, and lead...
-                        </p>
-                        <a href="#" class="explore-link">Explore</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="gallery" class="gallery-section darker-section">
-        <div class="container">
-            <div class="gallery-header">
-                <h2 class="gallery-title">
-                    Systems Built With an Artist’s Mind <br>
-                        & <strong>an Engineer’s Discipline</strong>
-                   
-                </h2>
-                <h3 class="gallery-subtitle">Few of <em>THE DELIVERIES</em></h3>
-            </div>
-            <div class="gallery-grid">
-                <div class="gallery-item item-1"><img src="/assets/images/gallery1.png"
-                        alt="Gallery image 1"></div>
-                <div class="gallery-item item-2"><img src="/assets/images/gallery2.png"
-                        alt="Gallery image 2"></div>
-                <div class="gallery-item item-3"><img src="/assets/images/gallery3.png"
-                        alt="Gallery image 3"></div>
-                <div class="gallery-item item-4"><img src="/assets/images/gallery4.png"
-                        alt="Gallery image 4"></div>
-                <div class="gallery-item item-5"><img src="/assets/images/gallery5.png"
-                        alt="Gallery image 5"></div>
-                <div class="gallery-item item-6"><img src="assets/images/gallery6.png"
-                        alt="Gallery image 6"></div>
-                <div class="gallery-item item-7"><img src="/assets/images/gallery7.png"
-                        alt="Gallery image 7"></div>
-                <div class="gallery-item item-8"><img src="/assets/images/gallery8.png"
-                        alt="Gallery image 8"></div>
-                <div class="gallery-item item-9"><img src="/assets/images/gallery9.png"
-                        alt="Gallery image 9"></div>
-                <div class="gallery-item item-10"><img src="/assets/images/gallery10.png"
-                        alt="Gallery image 10"></div>
-                <div class="gallery-item item-11"><img src="/assets/images/gallery11.png"
-                        alt="Gallery image 11"></div>
-                <div class="gallery-item item-12"><img src="/assets/images/gallery12.png"
-                        alt="Gallery image 12"></div>
-            </div>
-        </div>
-    </section>
-    <section id="covered" class="covered-section darker-section">
-        <div class="container">
-            <h2 class="covered-title">Got you<br><strong>Covered</strong></h2>
-            <div class="phone-mockup">
-                <div class="phone-bg"></div>
-                <img src="/assets/images/iphone14.png" alt="Phone mockup" class="phone-screen">
-            </div>
-        </div>
-    </section>
-
     </div>
+  </section>
+  <section id="experience" class="experience-section dark-section">
+    <div class="container">
+      <div class="experience-content-wrapper">
+        <div class="experience-text-content">
+          <img src="/assets/images/78_120.svg" alt="Endeavor Group Logo" class="endeavor-logo" />
+          <h2 class="experience-title">Previously worked at <strong>Endeavor</strong></h2>
+          <hr class="divider" />
+          <h3 class="experience-subtitle">End-to-End Product Execution:</h3>
+          <p class="experience-description">
+            At Endeavor, I led the full product lifecycle — from idea to launch — across 3 custom
+            ERPs, 2 mobile apps, and 3 websites. I owned the process from wireframes to workflows,
+            aligning business goals with intuitive design, scalable architecture, and seamless
+            developer handoffs. Every product shipped was built for performance, usability, and
+            growth.
+          </p>
+        </div>
+        <a routerLink="/case-study-parent1" class="explore-button">Explore &gt;</a>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="project-section dark-section">
+    <div class="container">
+      <!-- NOCTIS Project -->
+      <div class="project-showcase noctis-project">
+        <div class="project-info">
+          <h2 class="project-title">
+            <strong>NOCTIS:</strong><br />A Unified Command <br />Console for Enterprise<br />
+            Networks
+          </h2>
+          <h3 class="project-subtitle">
+            Network Operations Command, <br />Threat Intelligence & Security
+          </h3>
+          <p class="project-description">
+            Powered by Cisco modules, NOCTIS unifies monitoring, access control, and threat response
+            into one console. Built with cross-functional precision, it delivers real-time packet
+            tracing, AI-driven security, and seamless scalability for enterprise networks.
+          </p>
+          <a routerLink="/case-study-parent1" class="explore-button">Explore &gt;</a>
+        </div>
+        <div class="project-visuals">
+          <img
+            src="/assets/images/db0356bfc73695bc4e7a6a8d4f4f86350c021821.png"
+            alt="NOCTIS dashboard"
+            class="main-project-image1"
+          />
+          <div class="project-card">
+            <h4 class="project-card-title">NOCTIS</h4>
+            <p class="project-card-text">
+              <strong>Production time:</strong><br />~55,250 hours over 25 months.<br />
+              <strong>Team:</strong><br />13 cross-functional resources<br />
+              <em>(frontend, backend, network engineering, product management, and UX research)</em>
+            </p>
+          </div>
+        </div>
+        <div class="project-highlights">
+          <h4>Highlights</h4>
+          <div class="highlight-item">
+            <h5>Network Operations</h5>
+            <p>Monitoring, Load Balancing, Traffic Optimisation</p>
+            <a routerLink="/case-study-parent1" class="explore-link">Explore</a>
+          </div>
+          <div class="highlight-item">
+            <h5>Threat Intelligence</h5>
+            <p>AI-driven anomaly detection, predictive alerts</p>
+            <a routerLink="/case-study-parent1" class="explore-link">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="project-details-grid">
+        <div class="detail-item">
+          <div class="detail-image-placeholder">
+            <a routerLink="/case-study-parent1">
+              <img src="/assets/images/the_ideation.png" />
+            </a>
+          </div>
+          <div class="detail-itemcontent">
+            <h5>THE IDEATION</h5>
+            <p>Unified control for fragmented enterprise networks.</p>
+          </div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-image-placeholder">
+            <a routerLink="/case-study-parent1">
+              <img src="/assets/images/process.png" />
+            </a>
+          </div>
+          <div class="detail-itemcontent">
+            <h5>THE PROCESS</h5>
+            <p>Built around real operational network behavior.</p>
+          </div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-image-placeholder">
+            <a routerLink="/case-study-parent1">
+              <img src="/assets/images/collabs.png" />
+            </a>
+          </div>
+          <div class="detail-itemcontent">
+            <h5>THE COLLABS</h5>
+            <p>Designed with engineers, security, and infra teams.</p>
+          </div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-image-placeholder">
+            <a routerLink="/case-study-parent1">
+              <img src="/assets/images/phases.png" />
+            </a>
+          </div>
+          <div class="detail-itemcontent">
+            <h5>THE PHASES</h5>
+            <p>Visibility first. Intelligence next. Automation last.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CISCO Project -->
+    <div class="section-divider">
+      <hr class="divider-1" />
+    </div>
+    <div class="container">
+      <div class="project-showcase cisco-project cstm-project-showcase">
+        <div class="project-info">
+          <p class="construction-tag">From Rebranding to 1st Customer</p>
+          <h2 class="project-title">Ivy League <br /><strong>Admissions</strong></h2>
+          <p class="project-description">
+            WePegasus is a content-first education startup that designs its way into growth. By
+            turning storytelling, design, and data into lead magnets, WePegasus transforms admission
+            consulting into a creative engine, fueling its rise as a next-generation education
+            content company.
+          </p>
+          <a routerLink="/case-study-wepegasus" class="explore-button">Explore &gt;</a>
+        </div>
+        <div class="project-visuals">
+          <img
+            src="/assets/images/ivy.png"
+            alt="CISCO Security Systems dashboard"
+            class="main-project-image"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="capabilities" class="capabilities-section dark-section">
+    <div class="container">
+      <div class="capabilities-header">
+        <h2 class="capabilities-title">
+          Multiple Capabilities, <br />
+          <strong>One Unified Design Philosophy</strong>
+        </h2>
+        <p class="capabilities-description">
+          The foundational modules I designed to transform WePegasus from an idea into an
+          operational product
+        </p>
+      </div>
+      <div class="capabilities-grid">
+        <div class="capability-card">
+          <!-- <div class="card-image-placeholder"> -->
+          <img src="/assets/images/customwebsite.png" />
+          <!-- </div> -->
+          <div class="card-content">
+            <h4>CUSTOM WEBSITES</h4>
+            <p>
+              Built conversion-focused, multi-device experiences that balance storytelling with
+              performance.
+            </p>
+            <a routerLink="/case-study-wepegasus" class="explore-link">Explore</a>
+          </div>
+        </div>
+        <div class="capability-card">
+          <!-- <div class="card-image-placeholder"></div> -->
+          <img src="/assets/images/ai-db.png" />
+          <div class="card-content">
+            <h4>AI-DB ENGINES</h4>
+            <p>
+              Designed narrative-intelligence layers that detect tone shifts, missing context,
+              and...
+            </p>
+            <a routerLink="/case-study-wepegasus" class="explore-link">Explore</a>
+          </div>
+        </div>
+        <div class="capability-card">
+          <!-- <div class="card-image-placeholder"></div> -->
+          <img src="/assets/images/product-identity.png" />
+          <div class="card-content">
+            <h4>PRODUCT IDENTITY</h4>
+            <p>Crafted a unified visual and interaction identity for WePegasus...</p>
+            <a routerLink="/case-study-wepegasus" class="explore-link">Explore</a>
+          </div>
+        </div>
+        <div class="capability-card">
+          <!-- <div class="card-image-placeholder"></div> -->
+          <img src="/assets/images/product-marketing.png" />
+          <div class="card-content">
+            <h4>PRODUCT MARKETING</h4>
+            <p>Engineered high-intent marketing assets, editorial systems, and lead...</p>
+            <a routerLink="/case-study-wepegasus" class="explore-link">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery" class="gallery-section darker-section">
+    <div class="container">
+      <div class="gallery-header">
+        <h2 class="gallery-title">
+          Systems Built With an Artist’s Mind <br />
+          & <strong>an Engineer’s Discipline</strong>
+        </h2>
+        <h3 class="gallery-subtitle">Few of <em>THE DELIVERIES</em></h3>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item item-1">
+          <img src="/assets/images/gallery1.png" alt="Gallery image 1" />
+        </div>
+        <div class="gallery-item item-2">
+          <img src="/assets/images/gallery2.png" alt="Gallery image 2" />
+        </div>
+        <div class="gallery-item item-3">
+          <img src="/assets/images/gallery3.png" alt="Gallery image 3" />
+        </div>
+        <div class="gallery-item item-4">
+          <img src="/assets/images/gallery4.png" alt="Gallery image 4" />
+        </div>
+        <div class="gallery-item item-5">
+          <img src="/assets/images/gallery5.png" alt="Gallery image 5" />
+        </div>
+        <div class="gallery-item item-6">
+          <img src="assets/images/gallery6.png" alt="Gallery image 6" />
+        </div>
+        <div class="gallery-item item-7">
+          <img src="/assets/images/gallery7.png" alt="Gallery image 7" />
+        </div>
+        <div class="gallery-item item-8">
+          <img src="/assets/images/gallery8.png" alt="Gallery image 8" />
+        </div>
+        <div class="gallery-item item-9">
+          <img src="/assets/images/gallery9.png" alt="Gallery image 9" />
+        </div>
+        <div class="gallery-item item-10">
+          <img src="/assets/images/gallery10.png" alt="Gallery image 10" />
+        </div>
+        <div class="gallery-item item-11">
+          <img src="/assets/images/gallery11.png" alt="Gallery image 11" />
+        </div>
+        <div class="gallery-item item-12">
+          <img src="/assets/images/gallery12.png" alt="Gallery image 12" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="covered" class="covered-section darker-section">
+    <div class="container">
+      <h2 class="covered-title">Got you<br /><strong>Covered</strong></h2>
+      <div class="phone-mockup">
+        <div class="phone-bg"></div>
+        <img src="/assets/images/iphone14.png" alt="Phone mockup" class="phone-screen" />
+      </div>
+    </div>
+  </section>
+</div>

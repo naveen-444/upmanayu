@@ -13,27 +13,75 @@
                         <p class="heading-content"><strong>I don’t just design interfaces<br></strong>
                             I build ecosystems, align teams, and drive execution end<br> to end. If you’re serious about
                             building, let’s talk.</p>
-                        <form>
+                        <!-- <form (ngSubmit)="onSubmit()">
                             <div class="mb-4">
-                                <!-- <label class="form-label">Name</label> -->
-                                <input type="text" class="form-control" placeholder="Name">
+                                <input type="text" class="form-control" placeholder="Name" required>
                             </div>
                             <div class="mb-4">
-                                <!-- <label class="form-label">Business Email</label> -->
-                                <input type="email" class="form-control" placeholder="Business Email">
+                                <input type="email" class="form-control" placeholder="Business Email" required>
                             </div>
                             <div class="mb-4">
-                                <!-- <label class="form-label">Website/Linkedin</label> -->
                                 <input type="text" class="form-control" placeholder="Website/Linkedin">
                             </div>
                             <div class="mb-4">
-                                <!-- <label class="form-label">CAPTCHA</label> -->
-                                <input type="text" class="form-control" placeholder="CAPTCHA">
+                               <div
+                                    class="g-recaptcha"
+                                    data-sitekey="6LeAXTEsAAAAALFWkJBwumenFUFrsmJ4mMiXQ418"
+                                    data-callback="onCaptchaSuccess">
+                                </div>
                             </div>
                             <div class="Submit-btn">
-                            <a href="#" class="explore-button">Submit</a>
+                            <button type="submit" class="explore-button">Submit</button>
                             </div>
-                        </form>
+                        </form> -->
+                        <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+    <div class="mb-4">
+        <input
+            type="text"
+            class="form-control"
+            placeholder="Name"
+            name="name"
+            ngModel
+            required>
+    </div>
+
+    <div class="mb-4">
+        <input
+            type="email"
+            class="form-control"
+            placeholder="Business Email"
+            name="email"
+            ngModel
+            required>
+    </div>
+
+    <div class="mb-4">
+        <input
+            type="text"
+            class="form-control"
+            placeholder="Website/Linkedin"
+            name="website"
+            ngModel>
+    </div>
+
+    <div class="mb-4">
+        <div
+            class="g-recaptcha"
+            data-sitekey="6LeAXTEsAAAAALFWkJBwumenFUFrsmJ4mMiXQ418"
+            data-callback="onCaptchaSuccess">
+        </div>
+    </div>
+
+    <div class="Submit-btn">
+        <button type="submit" class="explore-button" [disabled]="!captchaToken">
+            Submit
+        </button>
+          <!-- <button type="submit" class="explore-button" >
+            Submit
+        </button> -->
+    </div>
+</form>
+
                     </div>
                     <div class="col-md-7">
                         <div class="your-product-img">

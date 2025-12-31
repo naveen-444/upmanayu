@@ -161,7 +161,7 @@ img {
   overflow: hidden;
   background: #fff;
   position: absolute;
-  top: 314px;
+  top: 265px;
   left: 990px;
 }
 span.hash-color {
@@ -1217,7 +1217,7 @@ hr.divider-1 {
   justify-content: flex-end;
   align-items: center;
   color: var(--color-text-light);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
   padding-right: 50px;
 }

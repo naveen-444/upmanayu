@@ -10,7 +10,9 @@
     --font-secondary: 'Inter', sans-serif;
 }
 
-
+.second-right-logo{
+      object-fit: contain;
+}
 .name-heading {
     font-size: 24px;
     font-weight: bold;

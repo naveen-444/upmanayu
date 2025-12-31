@@ -351,8 +351,9 @@ ul {
     justify-content: space-around;
 }
 
-.prject-img img {
+.prject-img a {
     width: 32%;
+    cursor: pointer;
 }
 
 

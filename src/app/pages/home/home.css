@@ -273,6 +273,13 @@
     padding: 20px;
   }
 }
+.card-container.show {
+  opacity: 1!important;
+  visibility: visible!important;
+}
+.capability-card .card-content p {
+    height: 80px;
+}
 @media (max-width: 1162px) {
   img.katysis1 {
   border-right: none;
